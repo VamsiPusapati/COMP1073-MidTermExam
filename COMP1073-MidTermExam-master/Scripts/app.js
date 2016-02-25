@@ -55,10 +55,10 @@ var travelReport = (function () {
 
 	submitButton.addEventListener("click", function (event) {
 		event.preventDefault();
-		console.log("firstName: " + firstName.value);
-		console.log("lastName: " + lastName.value);
-		console.log("email: " + email.value);
-		console.log("comments: " + comments.value);
+		console.log("FirstName: " + firstName.value);
+		console.log("LastName: " + lastName.value);
+		console.log("Email: " + email.value);
+		console.log("Comments: " + comments.value);
 
 	});
 	
